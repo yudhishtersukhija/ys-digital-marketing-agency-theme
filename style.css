@@ -1,0 +1,28 @@
+/*
+Theme Name: YS Digital Marketing Agency Theme
+Theme URI: https://github.com/yudhishter/ys-digital-marketing-agency-theme
+Author: Yudhishter Sukhija
+Author URI: https://yudhishtersukhija.com
+Description: Custom WordPress theme built from scratch to demonstrate professional WordPress theme development skills.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 8.0
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ys-digital-marketing-agency
+Tags: custom-theme, responsive-layout, blog
+*/
+
+/* Temporary styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}

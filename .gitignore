@@ -1,0 +1,28 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Composer
+vendor/
+
+# Environment Files
+.env
+
+# XAMPP
+xampp-control.ini
+
+# WordPress
+wp-config.php
+
+# Cache
+.cache/

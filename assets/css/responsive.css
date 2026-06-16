@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+
+    .site-header .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-navigation ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .portfolio-grid {
+    grid-template-columns: 1fr;
+}
+
+.team-grid {
+    grid-template-columns: 1fr;
+}
+
+.testimonial-grid {
+    grid-template-columns: 1fr;
+}
+
+.blog-layout {
+    grid-template-columns: 1fr;
+}
+
+.blog-grid {
+    grid-template-columns: 1fr;
+}
+
+.footer-grid {
+    grid-template-columns: 1fr;
+}
+
+}

@@ -1,0 +1,306 @@
+/*
+========================================
+Global Reset
+========================================
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/*
+========================================
+Container
+========================================
+*/
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*
+========================================
+Images
+========================================
+*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+========================================
+Links
+========================================
+*/
+
+a {
+    text-decoration: none;
+}
+
+/*
+========================================
+Buttons
+========================================
+*/
+
+.button,
+.cta-section a {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #0073aa;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/*
+========================================
+Sections
+========================================
+*/
+
+section {
+    padding: 80px 0;
+}
+
+/*
+========================================
+Header
+========================================
+*/
+
+.site-header {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+========================================
+Navigation
+========================================
+*/
+
+.main-navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation a {
+    color: #333;
+    font-weight: 600;
+}
+
+/*
+========================================
+Hero
+========================================
+*/
+
+.hero-section {
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/*
+========================================
+Service Cards
+========================================
+*/
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/*
+========================================
+Footer
+========================================
+*/
+
+.site-footer {
+    padding: 40px 0;
+    background: #222;
+    color: #fff;
+}
+
+.portfolio-featured-image {
+    margin: 20px 0;
+}
+
+.portfolio-featured-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+article img {
+    border-radius: 6px;
+}
+
+.portfolio-details {
+    margin: 30px 0;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.portfolio-details h3 {
+    margin-top: 0;
+}
+
+.portfolio-details p {
+    margin-bottom: 12px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.portfolio-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-card h2 {
+    margin-top: 15px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.team-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.team-details {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.testimonial-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.testimonial-details {
+    margin: 25px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+}
+
+.blog-layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.post-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*
+========================================
+Footer Grid
+========================================
+*/
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+}
+
+.footer-column p,
+.footer-column a {
+    margin: 0;
+    color: #fff;
+}
+
